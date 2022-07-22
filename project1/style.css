@@ -1,0 +1,345 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins',sans-serif;
+}
+ 
+/* ::selection{
+  background: rgba(26,188,156,0.3);
+} */
+
+
+
+
+.center{
+  max-width: 600px;
+  padding: 0px ;
+  margin: 0px auto;
+}
+.login{
+  width: 100%;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 4px 10px 1px rgba(0,0,0,0.1);
+}
+.login .title{
+  height: 90px;
+  background:white;
+  border-radius: 5px 5px 0 0;
+  font-size: 30px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color:(rgba(47,64,233,1) 0%, rgba(170,0,255,1));
+}
+.login form{
+  padding: 30px 25px 25px 25px;
+}
+.login form .row{
+  height: 45px;
+  margin-bottom: 15px;
+  position: relative;
+}
+.login form .row input{
+  height: 100%;
+  width: 100%;
+  outline: none;
+  padding-left: 60px;
+  border-radius: 5px;
+  border: 1px solid lightgrey;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+form .row input:focus{
+  border-color:linear-gradient(41deg, rgba(47,64,233,1) 0%, rgba(170,0,255,1) 100%);
+  box-shadow:linear-gradient(41deg, rgba(47,64,233,1) 0%, rgba(170,0,255,1) 100%);
+}
+form .row input::placeholder{
+  color: #999;
+}
+.login form .row i{
+  position: absolute;
+  width: 47px;
+  height: 100%;
+  color: #fff;
+  font-size: 18px;
+  background:linear-gradient(41deg, rgba(47,64,233,1) 0%, rgba(170,0,255,1) 100%);
+  border:linear-gradient(41deg, rgba(47,64,233,1) 0%, rgba(170,0,255,1) 100%);
+  border-radius: 5px 0 0 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.login form .pass{
+  margin: -8px 0 20px 0;
+}
+.login form .pass a{
+  color:linear-gradient(41deg, rgba(47,64,233,1) 0%, rgba(170,0,255,1) 100%);
+  font-size: 17px;
+  text-decoration: none;
+}
+.login form .pass a:hover{
+  text-decoration: underline;
+}
+.login form .button input{
+  color: #fff;
+  font-size: 25px;
+  font-weight: 500;
+  padding-left: 20px;
+  background:linear-gradient(41deg, rgba(47,64,233,1) 0%, rgba(170,0,255,1) 100%);
+  border:linear-gradient(41deg, rgba(47,64,233,1) 0%, rgba(170,0,255,1) 100%);
+  cursor: pointer;
+  
+}
+
+.login form .signup-link{
+  text-align: center;
+  margin-top: 20px;
+  font-size: 17px;
+}
+.login form .signup-link a{
+  color:linear-gradient(41deg, rgba(47,64,233,1) 0%, rgba(170,0,255,1) 100%);
+  text-decoration: none;
+}
+form .signup-link a:hover{
+  text-decoration: underline;
+}
+
+
+/* Element | http://127.0.0.1:5503/theme1/newlogin.html# */
+
+.center {
+  /* padding-top: 4px; */
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+/* Element | http://127.0.0.1:5503/theme1/newlogin.html# */
+
+div.row:nth-child(4) {
+  /* padding-left: 3px; */
+  padding-right: 100px;
+  padding-left: 100px;
+}
+
+/* Element | http://127.0.0.1:5503/theme1/newlogin.html# */
+
+div.row:nth-child(4) > input:nth-child(1) {
+  /* padding-left: 1px; */
+  /* padding-left: 5px; */
+  padding-left: 2px;
+}
+
+
+/* Element | http://127.0.0.1:5503/theme1/newlogin.html */
+
+div.row:nth-child(2) {
+  /* padding-top: 2px; */
+  /* padding-top: 4px; */
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+
+
+/* Element | http://127.0.0.1:5503/theme1/newlogin.html */
+
+div.row:nth-child(4) {
+  /* padding-right: 0px; */
+  padding-right: 50px;
+  padding-left: 180px;
+}
+
+/* Element | http://127.0.0.1:5503/theme1/newlogin.html */
+
+.signup-link {
+  margin-top: 40px;
+}
+
+
+/* Element | http://127.0.0.1:5503/theme1/newlogin.html */
+
+.login > form:nth-child(2) > div:nth-child(1) {
+  /* padding-right: 2px; */
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+/* Element | http://127.0.0.1:5503/theme1/newlogin.html */
+
+div.row:nth-child(2) {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+/* Element | http://127.0.0.1:5503/theme1/newlogin.html */
+
+.pass {
+  /* padding-left: 6px; */
+  /* padding-left: 2px; */
+  padding-left: 23px;
+}
+
+/* Element | http://127.0.0.1:5503/theme1/newlogin.html */
+
+div.row:nth-child(4) {
+  padding-right: 80px;
+}
+
+/* Element | http://127.0.0.1:5503/theme1/newlogin.html */
+
+.signup-link > a:nth-child(1) {
+  /* padding-left: 2px; */
+  padding-left: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+*{
+   font-family: 'Poppins', sans-serif;
+   margin:0; padding:0;
+   box-sizing: border-box;
+   outline: none; border:none;
+   text-decoration: none;
+}
+
+.container{
+   min-height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding:20px;
+   padding-bottom: 60px;
+}
+
+.container .content{
+   text-align: center;
+}
+
+.container .content h3{
+   font-size: 30px;
+   color:#333;
+}
+
+.container .content h3 span{
+   background: crimson;
+   color:#fff;
+   border-radius: 5px;
+   padding:0 15px;
+}
+
+.container .content h1{
+   font-size: 50px;
+   color:#333;
+}
+
+.container .content h1 span{
+   color:crimson;
+}
+
+.container .content p{
+   font-size: 25px;
+   margin-bottom: 20px;
+}
+
+.container .content .btn{
+   display: inline-block;
+   padding:10px 30px;
+   font-size: 20px;
+   background: #333;
+   color:#fff;
+   margin:0 5px;
+   text-transform: capitalize;
+}
+
+.container .content .btn:hover{
+   background: crimson;
+}
+
+.form-container{
+   min-height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding:20px;
+   padding-bottom: 60px;
+   background: #eee;
+}
+
+.form-container form{
+   padding:20px;
+   border-radius: 5px;
+   box-shadow: 0 5px 10px rgba(0,0,0,.1);
+   background: #fff;
+   text-align: center;
+   width: 500px;
+}
+
+.form-container form h3{
+   font-size: 30px;
+   text-transform: uppercase;
+   margin-bottom: 10px;
+   color:#333;
+}
+
+.form-container form input,
+.form-container form select{
+   width: 100%;
+   padding:10px 15px;
+   font-size: 17px;
+   margin:8px 0;
+   background: #eee;
+   border-radius: 5px;
+}
+
+.form-container form select option{
+   background: #fff;
+}
+
+.form-container form .form-btn{
+   background: #fbd0d9;
+   color:crimson;
+   text-transform: capitalize;
+   font-size: 20px;
+   cursor: pointer;
+}
+
+.form-container form .form-btn:hover{
+   background: crimson;
+   color:#fff;
+}
+
+.form-container form p{
+   margin-top: 10px;
+   font-size: 20px;
+   color:#333;
+}
+
+.form-container form p a{
+   color:crimson;
+}
+
+.form-container form .error-msg{
+   margin:10px 0;
+   display: block;
+   background: crimson;
+   color:#fff;
+   border-radius: 5px;
+   font-size: 20px;
+   padding:10px;
+}
